@@ -1,0 +1,2109 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1112.0850                               -->
+<workbook original-version='18.1' source-build='2024.3.1 (20243.24.1112.0850)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='cleaned_mcdonalds_nutritional_data' inline='true' name='federated.006n9jk08mvcif1clxml702g0l1g' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleaned_mcdonalds_nutritional_data' name='textscan.1l5m5qk03jd6oo15p4rn30nhw44c'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='D:/final project/cleaned_mcdonalds_nutritional_data.csv' dataRefreshTime='' directory='D:/final project' filename='C:/Users/ADMIN/AppData/Local/Temp/TableauTemp/1krh1pn19afo4m1ccfnmf0u98wo4/cleaned_mcdonalds_nutritional_data.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1l5m5qk03jd6oo15p4rn30nhw44c' name='cleaned_mcdonalds_nutritional_data.csv' table='[cleaned_mcdonalds_nutriti#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:Y261:no:A1:Y261:1' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Category' ordinal='0' />
+            <column datatype='string' name='Item' ordinal='1' />
+            <column datatype='string' name='Serving Size' ordinal='2' />
+            <column datatype='real' name='Calories' ordinal='3' />
+            <column datatype='real' name='Calories from Fat' ordinal='4' />
+            <column datatype='real' name='Total Fat' ordinal='5' />
+            <column datatype='real' name='Total Fat (% Daily Value)' ordinal='6' />
+            <column datatype='real' name='Saturated Fat' ordinal='7' />
+            <column datatype='real' name='Saturated Fat (% Daily Value)' ordinal='8' />
+            <column datatype='real' name='Trans Fat' ordinal='9' />
+            <column datatype='real' name='Cholesterol' ordinal='10' />
+            <column datatype='real' name='Cholesterol (% Daily Value)' ordinal='11' />
+            <column datatype='real' name='Sodium' ordinal='12' />
+            <column datatype='real' name='Sodium (% Daily Value)' ordinal='13' />
+            <column datatype='real' name='Carbohydrates' ordinal='14' />
+            <column datatype='real' name='Carbohydrates (% Daily Value)' ordinal='15' />
+            <column datatype='real' name='Dietary Fiber' ordinal='16' />
+            <column datatype='real' name='Dietary Fiber (% Daily Value)' ordinal='17' />
+            <column datatype='real' name='Sugars' ordinal='18' />
+            <column datatype='real' name='Protein' ordinal='19' />
+            <column datatype='real' name='Vitamin A (% Daily Value)' ordinal='20' />
+            <column datatype='real' name='Vitamin C (% Daily Value)' ordinal='21' />
+            <column datatype='real' name='Calcium (% Daily Value)' ordinal='22' />
+            <column datatype='real' name='Iron (% Daily Value)' ordinal='23' />
+            <column datatype='string' name='Health_Status' ordinal='24' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Y261:no:A1:Y261:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>5460</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Item</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Item]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Item</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Serving Size</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Serving Size]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Serving Size</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calories</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Calories]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Calories</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calories from Fat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Calories from Fat]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Calories from Fat</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Fat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Fat]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Total Fat</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Fat (% Daily Value)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Fat (% Daily Value)]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Total Fat (% Daily Value)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturated Fat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturated Fat]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Saturated Fat</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturated Fat (% Daily Value)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturated Fat (% Daily Value)]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Saturated Fat (% Daily Value)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trans Fat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Trans Fat]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Trans Fat</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cholesterol</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cholesterol]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Cholesterol</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cholesterol (% Daily Value)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cholesterol (% Daily Value)]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Cholesterol (% Daily Value)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sodium</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sodium]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Sodium</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sodium (% Daily Value)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sodium (% Daily Value)]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Sodium (% Daily Value)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carbohydrates</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Carbohydrates]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Carbohydrates</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carbohydrates (% Daily Value)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Carbohydrates (% Daily Value)]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Carbohydrates (% Daily Value)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dietary Fiber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dietary Fiber]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Dietary Fiber</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dietary Fiber (% Daily Value)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dietary Fiber (% Daily Value)]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Dietary Fiber (% Daily Value)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sugars</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sugars]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Sugars</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Protein</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Protein]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Protein</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin A (% Daily Value)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vitamin A (% Daily Value)]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Vitamin A (% Daily Value)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin C (% Daily Value)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vitamin C (% Daily Value)]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Vitamin C (% Daily Value)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calcium (% Daily Value)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Calcium (% Daily Value)]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Calcium (% Daily Value)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Iron (% Daily Value)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Iron (% Daily Value)]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Iron (% Daily Value)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Health_Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Health_Status]</local-name>
+            <parent-name>[cleaned_mcdonalds_nutritional_data.csv]</parent-name>
+            <remote-alias>Health_Status</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Health Category' datatype='string' name='[Calculation_1464795806983995392]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Calories] &lt; 400 AND [Total Fat] &lt; 20 THEN &quot;Healthy&quot;&#13;&#10;ELSE &quot;Unhealthy&quot;&#13;&#10;END' />
+      </column>
+      <column aggregation='None' datatype='integer' name='[Calories (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='2' formula='[Calories]' peg='0' size='125' />
+      </column>
+      <column datatype='real' name='[Calories]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Cholesterol]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Dietary Fiber]' role='measure' type='quantitative' />
+      <column caption='Health Status' datatype='string' name='[Health_Status]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Iron (% Daily Value)]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Protein]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Sodium]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Sugars]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Total Fat]' role='measure' type='quantitative' />
+      <column caption='cleaned_mcdonalds_nutritional_data.csv' datatype='table' name='[__tableau_internal_object_id__].[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]' role='measure' type='quantitative' />
+      <column-instance column='[Calories]' derivation='None' name='[none:Calories:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Calories]' derivation='None' name='[none:Calories:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Health_Status]' derivation='None' name='[none:Health_Status:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Item]' derivation='None' name='[none:Item:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calories]' derivation='Sum' name='[sum:Calories:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cholesterol]' derivation='Sum' name='[sum:Cholesterol:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Dietary Fiber]' derivation='Sum' name='[sum:Dietary Fiber:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Iron (% Daily Value)]' derivation='Sum' name='[sum:Iron (% Daily Value):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Protein]' derivation='Sum' name='[sum:Protein:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sodium]' derivation='Sum' name='[sum:Sodium:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sugars]' derivation='Sum' name='[sum:Sugars:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Fat]' derivation='Sum' name='[sum:Total Fat:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Calories,Category,Item)' hidden='true' name='[Action (Calories,Category,Item)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Calories:ok]' />
+          <groupfilter function='level-members' level='[Category]' />
+          <groupfilter function='level-members' level='[Item]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Health Status)' hidden='true' name='[Action (Health Status)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Health_Status]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Item)' hidden='true' name='[Action (Item)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Item]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Exclusions (Calories,Category,Item)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Calories:qk]' />
+          <groupfilter function='level-members' level='[none:Category:nk]' />
+          <groupfilter function='level-members' level='[none:Item:nk]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/cleaned_mcdonalds_nutritional_data dashboard.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='12/23/2024 07:14:49 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='cleaned_mcdonalds_nutritional_data' increment-value='%null%' refresh-type='create' rows-inserted='260' timestamp-start='2024-12-23 07:14:49.216' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>0</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Item</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Item]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Item</remote-alias>
+              <ordinal>1</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>260</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Serving Size</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Serving Size]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Serving Size</remote-alias>
+              <ordinal>2</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>107</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Calories</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Calories]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Calories</remote-alias>
+              <ordinal>3</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Calories from Fat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Calories from Fat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Calories from Fat</remote-alias>
+              <ordinal>4</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Fat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total Fat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Fat</remote-alias>
+              <ordinal>5</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Fat (% Daily Value)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total Fat (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Fat (% Daily Value)</remote-alias>
+              <ordinal>6</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>63</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Saturated Fat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Saturated Fat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Saturated Fat</remote-alias>
+              <ordinal>7</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Saturated Fat (% Daily Value)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Saturated Fat (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Saturated Fat (% Daily Value)</remote-alias>
+              <ordinal>8</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>74</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Trans Fat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Trans Fat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Trans Fat</remote-alias>
+              <ordinal>9</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cholesterol</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Cholesterol]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cholesterol</remote-alias>
+              <ordinal>10</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cholesterol (% Daily Value)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Cholesterol (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cholesterol (% Daily Value)</remote-alias>
+              <ordinal>11</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sodium</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sodium]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sodium</remote-alias>
+              <ordinal>12</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>111</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sodium (% Daily Value)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sodium (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sodium (% Daily Value)</remote-alias>
+              <ordinal>13</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Carbohydrates</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Carbohydrates]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Carbohydrates</remote-alias>
+              <ordinal>14</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>84</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Carbohydrates (% Daily Value)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Carbohydrates (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Carbohydrates (% Daily Value)</remote-alias>
+              <ordinal>15</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dietary Fiber</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Dietary Fiber]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dietary Fiber</remote-alias>
+              <ordinal>16</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dietary Fiber (% Daily Value)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Dietary Fiber (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dietary Fiber (% Daily Value)</remote-alias>
+              <ordinal>17</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sugars</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sugars]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sugars</remote-alias>
+              <ordinal>18</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>83</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Protein</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Protein]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Protein</remote-alias>
+              <ordinal>19</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vitamin A (% Daily Value)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Vitamin A (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vitamin A (% Daily Value)</remote-alias>
+              <ordinal>20</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vitamin C (% Daily Value)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Vitamin C (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vitamin C (% Daily Value)</remote-alias>
+              <ordinal>21</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Calcium (% Daily Value)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Calcium (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Calcium (% Daily Value)</remote-alias>
+              <ordinal>22</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Iron (% Daily Value)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Iron (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Iron (% Daily Value)</remote-alias>
+              <ordinal>23</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Health_Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Health_Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Health_Status</remote-alias>
+              <ordinal>24</ordinal>
+              <family>cleaned_mcdonalds_nutritional_data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Health_Status:nk]' palette='green_orange_cyan_yellow_10_0' type='palette'>
+            <map to='#87d180'>
+              <bucket>&quot;Healthy&quot;</bucket>
+            </map>
+            <map to='#ef8a0c'>
+              <bucket>&quot;Unhealthy&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' palette='green_gold_10_0' type='palette'>
+            <map to='#146c36'>
+              <bucket>&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Total Fat:qk]&quot;</bucket>
+            </map>
+            <map to='#2e7f46'>
+              <bucket>&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Sodium:qk]&quot;</bucket>
+            </map>
+            <map to='#60a656'>
+              <bucket>&quot;[federated.006n9jk08mvcif1clxml702g0l1g]&quot;</bucket>
+            </map>
+            <map to='#60a656'>
+              <bucket>&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Iron (\% Daily Value):qk]&quot;</bucket>
+            </map>
+            <map to='#a3bd5a'>
+              <bucket>&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Protein:qk]&quot;</bucket>
+            </map>
+            <map to='#c0c55d'>
+              <bucket>&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Cholesterol:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Sugars:qk]&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[none:Calories:qk]&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Calories:qk]&quot;</bucket>
+            </map>
+            <map to='#f59b00'>
+              <bucket>&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Dietary Fiber:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Category:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Beef &amp; Pork&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Coffee &amp; Tea&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Chicken &amp; Fish&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Snacks &amp; Sides&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Salads&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Breakfast&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Desserts&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Beverages&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Smoothies &amp; Shakes&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='cleaned_mcdonalds_nutritional_data.csv' id='cleaned_mcdonalds_nutritional_data.csv_34EB57FA8B7849F2819193B7D40CB4CB'>
+            <properties context=''>
+              <relation connection='textscan.1l5m5qk03jd6oo15p4rn30nhw44c' name='cleaned_mcdonalds_nutritional_data.csv' table='[cleaned_mcdonalds_nutriti#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:Y261:no:A1:Y261:1' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Category' ordinal='0' />
+                  <column datatype='string' name='Item' ordinal='1' />
+                  <column datatype='string' name='Serving Size' ordinal='2' />
+                  <column datatype='real' name='Calories' ordinal='3' />
+                  <column datatype='real' name='Calories from Fat' ordinal='4' />
+                  <column datatype='real' name='Total Fat' ordinal='5' />
+                  <column datatype='real' name='Total Fat (% Daily Value)' ordinal='6' />
+                  <column datatype='real' name='Saturated Fat' ordinal='7' />
+                  <column datatype='real' name='Saturated Fat (% Daily Value)' ordinal='8' />
+                  <column datatype='real' name='Trans Fat' ordinal='9' />
+                  <column datatype='real' name='Cholesterol' ordinal='10' />
+                  <column datatype='real' name='Cholesterol (% Daily Value)' ordinal='11' />
+                  <column datatype='real' name='Sodium' ordinal='12' />
+                  <column datatype='real' name='Sodium (% Daily Value)' ordinal='13' />
+                  <column datatype='real' name='Carbohydrates' ordinal='14' />
+                  <column datatype='real' name='Carbohydrates (% Daily Value)' ordinal='15' />
+                  <column datatype='real' name='Dietary Fiber' ordinal='16' />
+                  <column datatype='real' name='Dietary Fiber (% Daily Value)' ordinal='17' />
+                  <column datatype='real' name='Sugars' ordinal='18' />
+                  <column datatype='real' name='Protein' ordinal='19' />
+                  <column datatype='real' name='Vitamin A (% Daily Value)' ordinal='20' />
+                  <column datatype='real' name='Vitamin C (% Daily Value)' ordinal='21' />
+                  <column datatype='real' name='Calcium (% Daily Value)' ordinal='22' />
+                  <column datatype='real' name='Iron (% Daily Value)' ordinal='23' />
+                  <column datatype='string' name='Health_Status' ordinal='24' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_0994A6EE278C4C2F83495E342CB39E24]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Pie Chart for Health Status' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action3_A8F00383438B49BC9773D175AA9C4547]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Calories per food items' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_DAE320854E654940A039B99B3D659FDB]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_BC13B77910F84F34A1089CF816A7204B]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Nutrient per Category ' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Calories per food items'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Calibri'>Calories per food items</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_mcdonalds_nutritional_data' name='federated.006n9jk08mvcif1clxml702g0l1g' />
+          </datasources>
+          <datasource-dependencies datasource='federated.006n9jk08mvcif1clxml702g0l1g'>
+            <column datatype='real' name='[Calories]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column caption='Health Status' datatype='string' name='[Health_Status]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column-instance column='[Calories]' derivation='None' name='[none:Calories:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Item]' derivation='None' name='[none:Item:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Health Status)]'>
+            <groupfilter function='level-members' level='[Health_Status]' user:ui-action-filter='[Action1_0994A6EE278C4C2F83495E342CB39E24]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[Exclusions (Calories,Category,Item)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Calories:qk]' />
+                <groupfilter function='level-members' level='[none:Category:nk]' />
+                <groupfilter function='level-members' level='[none:Item:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='union'>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Category:nk]' member='&quot;Breakfast&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Calories:qk]' member='990.0' />
+                        <groupfilter function='member' level='[none:Item:nk]' member='&quot;Big Breakfast with Hotcakes and Egg Whites (Regular Biscuit)&quot;' />
+                      </groupfilter>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Calories:qk]' member='1050.0' />
+                        <groupfilter function='member' level='[none:Item:nk]' member='&quot;Big Breakfast with Hotcakes and Egg Whites (Large Biscuit)&quot;' />
+                      </groupfilter>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Calories:qk]' member='1090.0' />
+                        <groupfilter function='member' level='[none:Item:nk]' member='&quot;Big Breakfast with Hotcakes (Regular Biscuit)&quot;' />
+                      </groupfilter>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Calories:qk]' member='1150.0' />
+                        <groupfilter function='member' level='[none:Item:nk]' member='&quot;Big Breakfast with Hotcakes (Large Biscuit)&quot;' />
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Category:nk]' member='&quot;Chicken &amp; Fish&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Calories:qk]' member='940.0' />
+                        <groupfilter function='member' level='[none:Item:nk]' member='&quot;Chicken McNuggets (20 piece)&quot;' />
+                      </groupfilter>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Calories:qk]' member='1880.0' />
+                        <groupfilter function='member' level='[none:Item:nk]' member='&quot;Chicken McNuggets (40 piece)&quot;' />
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Category:nk]' member='&quot;Smoothies &amp; Shakes&quot;' />
+                    <groupfilter function='crossjoin'>
+                      <groupfilter function='member' level='[none:Calories:qk]' member='930.0' />
+                      <groupfilter function='member' level='[none:Item:nk]' member='&quot;McFlurry with M&amp;M’s Candies (Medium)&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:Calories:qk]' />
+                  <hierarchy name='[none:Category:nk]' />
+                  <hierarchy name='[none:Item:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Category:nk]'>
+            <groupfilter function='level-members' level='[none:Category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[none:Category:nk]</column>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[Exclusions (Calories,Category,Item)]</column>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Health Status)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Category:nk]' />
+              <lod column='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Item:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Calories:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='none' probability='95' scope='per-cell' symmetric='false' value-column='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Calories:qk]' z-order='1' />
+            <reference-line axis-column='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Calories:qk]' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Calories:qk]' z-order='2' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.9060773849487305' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.006n9jk08mvcif1clxml702g0l1g].[none:Calories:qk]</cols>
+      </table>
+      <simple-id uuid='{AEF8F8FF-221D-4377-8DB6-08126794E119}' />
+    </worksheet>
+    <worksheet name='Nutrient per Category '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Calibri'>Nutrient per Category </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_mcdonalds_nutritional_data' name='federated.006n9jk08mvcif1clxml702g0l1g' />
+          </datasources>
+          <datasource-dependencies datasource='federated.006n9jk08mvcif1clxml702g0l1g'>
+            <column datatype='real' name='[Calories]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Cholesterol]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Dietary Fiber]' role='measure' type='quantitative' />
+            <column caption='Health Status' datatype='string' name='[Health_Status]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Iron (% Daily Value)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Protein]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sodium]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sugars]' role='measure' type='quantitative' />
+            <column-instance column='[Calories]' derivation='None' name='[none:Calories:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calories]' derivation='Sum' name='[sum:Calories:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cholesterol]' derivation='Sum' name='[sum:Cholesterol:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dietary Fiber]' derivation='Sum' name='[sum:Dietary Fiber:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Iron (% Daily Value)]' derivation='Sum' name='[sum:Iron (% Daily Value):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Protein]' derivation='Sum' name='[sum:Protein:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sodium]' derivation='Sum' name='[sum:Sodium:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sugars]' derivation='Sum' name='[sum:Sugars:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Calories:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Cholesterol:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Dietary Fiber:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Iron (\% Daily Value):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Protein:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Sodium:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Sugars:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Calories,Category,Item)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_A8F00383438B49BC9773D175AA9C4547]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calories:ok]' />
+              <groupfilter function='level-members' level='[Category]' />
+              <groupfilter function='level-members' level='[Item]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Health Status)]'>
+            <groupfilter function='level-members' level='[Health_Status]' user:ui-action-filter='[Action1_0994A6EE278C4C2F83495E342CB39E24]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Item)]'>
+            <groupfilter function='level-members' level='[Item]' user:ui-action-filter='[Action5_1E635B78611A48109025CEEE3B70F7EC]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[:Measure Names]</column>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Health Status)]</column>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Item)]</column>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Calories,Category,Item)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.006n9jk08mvcif1clxml702g0l1g].[Multiple Values]' field-type='quantitative' major-origin='0.0' major-spacing='5000.0' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.006n9jk08mvcif1clxml702g0l1g].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.006n9jk08mvcif1clxml702g0l1g].[Multiple Values]</rows>
+        <cols>([federated.006n9jk08mvcif1clxml702g0l1g].[none:Category:nk] / [federated.006n9jk08mvcif1clxml702g0l1g].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{B76E00ED-4F8A-47DD-A5A0-83874BB18FB7}' />
+    </worksheet>
+    <worksheet name='Pie Chart for Health Status'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Calibri'>Health status per item</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_mcdonalds_nutritional_data' name='federated.006n9jk08mvcif1clxml702g0l1g' />
+          </datasources>
+          <datasource-dependencies datasource='federated.006n9jk08mvcif1clxml702g0l1g'>
+            <column datatype='real' name='[Calories]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column caption='Health Status' datatype='string' name='[Health_Status]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column-instance column='[Item]' derivation='Count' name='[cnt:Item:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calories]' derivation='None' name='[none:Calories:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Health_Status]' derivation='None' name='[none:Health_Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Item]' derivation='Count' name='[pcto:cnt:Item:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Calories,Category,Item)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_A8F00383438B49BC9773D175AA9C4547]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calories:ok]' />
+              <groupfilter function='level-members' level='[Category]' />
+              <groupfilter function='level-members' level='[Item]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Item)]'>
+            <groupfilter function='level-members' level='[Item]' user:ui-action-filter='[Action5_1E635B78611A48109025CEEE3B70F7EC]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Item)]</column>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Calories,Category,Item)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.006n9jk08mvcif1clxml702g0l1g].[pcto:cnt:Item:qk]' value='p0%' />
+            <format attr='text-format' field='[federated.006n9jk08mvcif1clxml702g0l1g].[cnt:Item:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Health_Status:nk]' />
+              <size column='[federated.006n9jk08mvcif1clxml702g0l1g].[cnt:Item:qk]' />
+              <text column='[federated.006n9jk08mvcif1clxml702g0l1g].[pcto:cnt:Item:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{17315732-1309-4078-82CE-32789F86303E}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Calibri'>Sum of Calories</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_mcdonalds_nutritional_data' name='federated.006n9jk08mvcif1clxml702g0l1g' />
+          </datasources>
+          <datasource-dependencies datasource='federated.006n9jk08mvcif1clxml702g0l1g'>
+            <column datatype='real' name='[Calories]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column caption='Health Status' datatype='string' name='[Health_Status]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column-instance column='[Calories]' derivation='None' name='[none:Calories:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calories]' derivation='Sum' name='[sum:Calories:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Calories,Category,Item)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_A8F00383438B49BC9773D175AA9C4547]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calories:ok]' />
+              <groupfilter function='level-members' level='[Category]' />
+              <groupfilter function='level-members' level='[Item]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Health Status)]'>
+            <groupfilter function='level-members' level='[Health_Status]' user:ui-action-filter='[Action1_0994A6EE278C4C2F83495E342CB39E24]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Item)]'>
+            <groupfilter function='level-members' level='[Item]' user:ui-action-filter='[Action5_1E635B78611A48109025CEEE3B70F7EC]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Health Status)]</column>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Item)]</column>
+            <column>[federated.006n9jk08mvcif1clxml702g0l1g].[Action (Calories,Category,Item)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Calories:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Calories:qk]' num-steps='7' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Calories:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E60E4676-84BB-4ADF-AAB1-33EC6983467C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='cleaned_mcdonalds_nutritional_data' name='federated.006n9jk08mvcif1clxml702g0l1g' />
+      </datasources>
+      <datasource-dependencies datasource='federated.006n9jk08mvcif1clxml702g0l1g'>
+        <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+        <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98120' id='42' param='horz' type-v2='layout-flow' w='99042' x='479' y='940'>
+            <zone h='98120' id='40' type-v2='layout-basic' w='99042' x='479' y='940'>
+              <zone h='11398' id='5' param='horz' type-v2='layout-flow' w='99042' x='479' y='940'>
+                <zone fixed-size='112' h='11398' id='45' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/ADMIN/Pictures/McDonald&apos;s_logo.svg.png' type-v2='bitmap' w='7186' x='479' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='11398' id='20' type-v2='text' w='91856' x='7665' y='940'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontname='Calibri' fontsize='18'>McDonald&apos;s Menu Nutritional Analysis</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#ff5500' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='13984' id='10' param='horz' type-v2='layout-flow' w='57879' x='479' y='12338'>
+                <zone h='13984' id='21' param='horz' type-v2='layout-flow' w='57879' x='479' y='12338'>
+                  <zone fixed-size='497' h='13984' id='22' is-fixed='true' name='Sheet 1' w='57879' x='479' y='12338'>
+                    <layout-cache type-h='cell' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='4' />
+                      <format attr='background-color' value='#f4c433' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='36369' id='11' param='horz' type-v2='layout-flow' w='99042' x='479' y='26322'>
+                <zone fixed-size='1007' h='36369' id='39' is-fixed='true' name='Calories per food items' w='60778' x='479' y='26322'>
+                  <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#f4c433' />
+                  </zone-style>
+                </zone>
+                <zone h='36369' id='13' name='Pie Chart for Health Status' w='38264' x='61257' y='26322'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#f4c433' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='36369' id='38' param='horz' type-v2='layout-flow' w='99042' x='479' y='62691'>
+                <zone h='36369' id='44' name='Nutrient per Category ' w='99042' x='479' y='62691'>
+                  <layout-cache cell-count-w='63' minheight='249' non-cell-size-w='70' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#f4c433' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='721' h='13984' id='43' is-fixed='true' mode='checkdropdown' name='Calories per food items' param='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Category:nk]' type-v2='filter' w='41163' x='58358' y='12338'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='1' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#f4c433' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='51' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98120' id='50' param='vert' type-v2='layout-flow' w='99042' x='479' y='940'>
+                <zone fixed-size='83' h='11398' id='45' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/ADMIN/Pictures/McDonald&apos;s_logo.svg.png' type-v2='bitmap' w='7186' x='479' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='11398' id='20' type-v2='text' w='91856' x='7665' y='940'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontname='Calibri' fontsize='18'>McDonald&apos;s Menu Nutritional Analysis</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ff5500' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='102' h='13984' id='22' is-fixed='true' name='Sheet 1' w='57879' x='479' y='12338'>
+                  <layout-cache type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f4c433' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='721' h='13984' id='43' mode='checkdropdown' name='Calories per food items' param='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Category:nk]' type-v2='filter' w='41163' x='58358' y='12338'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f4c433' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36369' id='39' is-fixed='true' name='Calories per food items' w='60778' x='479' y='26322'>
+                  <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f4c433' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36369' id='13' is-fixed='true' name='Pie Chart for Health Status' w='38264' x='61257' y='26322'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f4c433' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36369' id='44' is-fixed='true' name='Nutrient per Category ' w='99042' x='479' y='62691'>
+                  <layout-cache cell-count-w='63' minheight='249' non-cell-size-w='70' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f4c433' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9D7876D0-A5DC-40BD-B170-F9FFC8FDFE6A}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Calories per food items'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Nutrient per Category '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Pie Chart for Health Status'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Health_Status:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields />
+                    <y-fields />
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Calories:qk]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>102028.68852459016</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+        </viewpoint>
+      </viewpoints>
+      <active id='13' />
+      <simple-id uuid='{BC562811-4238-4AA9-84AB-D10E31FC6007}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Calories per food items'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Category:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.006n9jk08mvcif1clxml702g0l1g].[none:Category:nk]</field>
+            <field>[federated.006n9jk08mvcif1clxml702g0l1g].[none:Item:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ACF081B0-14CA-4D35-9E6D-E7E85624989A}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Nutrient per Category '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.006n9jk08mvcif1clxml702g0l1g].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.006n9jk08mvcif1clxml702g0l1g].[:Measure Names]</field>
+            <field>[federated.006n9jk08mvcif1clxml702g0l1g].[none:Category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D6253C84-B66A-42CD-9A70-0BB32C7254AE}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Pie Chart for Health Status'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.006n9jk08mvcif1clxml702g0l1g].[none:Health_Status:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.006n9jk08mvcif1clxml702g0l1g].[cnt:Item:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.006n9jk08mvcif1clxml702g0l1g].[none:Calculation_1464795806983995392:nk]</field>
+            <field>[federated.006n9jk08mvcif1clxml702g0l1g].[none:Health_Status:nk]</field>
+            <field>[federated.006n9jk08mvcif1clxml702g0l1g].[none:Item:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1ECC366D-4C0B-4C34-B85A-E7665658AF5F}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.006n9jk08mvcif1clxml702g0l1g].[none:Calculation_1464795806983995392:nk]</field>
+            <field>[federated.006n9jk08mvcif1clxml702g0l1g].[none:Category:nk]</field>
+            <field>[federated.006n9jk08mvcif1clxml702g0l1g].[none:Item:nk]</field>
+            <field>[federated.006n9jk08mvcif1clxml702g0l1g].[sum:Calories:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E342C9E7-90E9-47DE-B70F-276E661A3A2E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nOy9d5Ac2WGn+aWpyrJdVe2qvUE3Gg1vBxhgPMFxHHrRiKLIW+mkiD2t9vYU
+      J+2eLi6C2lhJXIW4F1wGT6RISpQhJVKG0nAocsgZjsMMBgMMMLAN1432tryvSvfujwIa0zPo
+      hiFMYzq/iEagMt+r98tX+cvnX0pCCIGDwwpFvtMCHBzuJOrbPwgh4HYVCJKEJEnV9IR9e9J0
+      cHgH8wYQQpD5zl+Q/suvIyzzliYqyQo1n/gMtb/9uxAfg//QdUvTc3BYDOlSG0DYNiN776E8
+      PfWuQEIItFYVuywwElb1yf3O820qdlFgJN99/kp4mlrofukwxEYdAzjcMRZUgbCsd4cQgsZf
+      8VP7AS/CEsx8M0/m1crbbnJB4+f81D7uRZiC6W/kye6vXJMJHBzuNEs2goUQ1NzvofYDXpLP
+      liidM4n+egBXgzJ/PrDNTe3jXjIvlykcN2j6zQBau7rU1zo4LBuWNIDskWj4rI/igMHcdwpM
+      fiUHNtQ+5UUIgSRJ1H3UR3nEZOZbBaa+lsMuCqKf8+P0rjrcDSxqACEEkfd7UAMyyWdLSJKE
+      lbPJvalTs9uN7JJwtyt4ulXSL5YBsEuCzMtlvGtd+Ppdt+0iHBxulEUNIMkS4fd7sEo2heNG
+      9ZgkUTiuo/hlvH0qwW1uhC0onrx8PndAR5Ig8pjHKQUclj1XNoAAb7+Kq16heNpEmJdv5PL5
+      ahepd60L71oXVk5gzF3ux69MWhgJC/9mN0rQGWdzWN5c8Q4VCGp2aSCgdNpY0KNjpGysosC7
+      2oXWrqBPWQj7skGEJSgPmshuicBmpxrkcAMoLlDe1pEiq6Be4V5y+6p/0g08aGUvtPYuVgWS
+      8F+8eUsXFg6KCVNgJiy8vSqKX0KfWdjvLyFRGqrG8W91O9Ugh+vn41+C3/nm5c+/8g34tT9a
+      GEZrhP/yNDz5n+Df/wU0RK8vDW8zPPo5rthf6W6UcdUrCEugT7x7bMBI2mht1ahmwoa3d/lL
+      UBkzQQLfGheSIoEz08HhujAhK0NbG6Rd4CmBCXga4RO/D3YJfvotmDoKT38RmnfD478Jzz0D
+      j30eZBc89yXY8CkIh6GmFr73e7DxV6C9G0oT8MKzwDsHwqhOzfGucYEAKyewCjaSvHBQy8pc
+      vqPNzLvvbn3aBgFKjYQ7Klc/OzhcD/u/D/d/BhJuOPD3cM+H4Z7Pwam/hxMnwVN7OWxuEny1
+      8Nhvw49+D6Q2+OCvgR2F5/4bdH0E1myBw9+H9HZ48rfglaoBrlAFEni6q74w5izU2jokTUON
+      Ns9XZ0rnFIpDDeSOaZRHTYQQC/7MjE36xTLZAxZqYy1CCJRwBLkmhBC2Uy1yuDpzb0FkJ/S2
+      wfBg9Zhtg0sDlxcUBSSp2j7Y8EEYPVRtC6gu8ASgUgQsKBXBrIDqhl//c0AH6/ID+YpVIK29
+      OtJrxCza/r+/oXT0LcKf/iwzX/jP+Pc8SOXCIFLPXhRdx7PpB9T+xh4qQ+fw73kQSVFI/s03
+      kbofx5yZJPTpToIfKuDduoPkX38TT/8Gim/uxxw4cauz0OFuZfIElAvw6vfBHQOjDKOn4M1n
+      4CO/C233w/PfBssPv/zHkBqEn30fIsfh0d8Fqwg/+TJs+SSYBqTHQI7ByZeh/0GYOAx6HkZP
+      v2My3MPbKM3M0PvVWtSwTPLZMp73fQutZzX68BBWLkv2Jz9Era3Hu20nSCAqFcoDJ/Dt3A1A
+      +fQptO4elHAtdjGP7PViJhIotXXE/t8/ou43fhszGSf77a/T/fJbzmQ4hzvKu0oA2S2hBKt1
+      frskEf/ql0BVsVJJRKWCu7sHPX6UwOYsZmyWuW+9gWfj/WR/+gxqXQN2IY+kugg92o6spjHT
+      OsWzASRFQR8fJfOjH6APD6LcSNeVg8NN5t0G8ElIrmrPjZU3KR09vOC8MTFG6BENX/NL0AyJ
+      gE1h34sAWLE5oDqNQlVnqLlXw0hYJL6XRo3IiLJN4ZUXAFCaWm7xpTk4XJ13PYZl7+UeH2Fc
+      ubFqxGzyb+nk39KxS1cOI/TqcVmTUGtlgtvdKCFnirTD8uLd3aA65N6oIATos1dYHwAUTugU
+      juvVDxJXnPtfGjKRPBVEpdptmj1Ywco6vT8Oy4uFBpBljKTN5Ffy84eutK5FkqSFg19XOJ9+
+      oUL6hUr1M2AtUpo4ONxJLhtAkgj90mew//5vbn2qEgT3Pn7r03FwuArSHd8XyOkGdbiD3HkD
+      mAbMnL+jEhxWLnfeAA4Od5D5NoBlWXz729+mt7f3TupxcLitLOgFWrNmDQ888MCd0uLgcNtx
+      5iM4rGgcAyxXhCCbTpHJ5rmxRprg9LFDnL4wMf99mVSCVCa3YDp6fGqYofHZK35DanacM5fi
+      v0dxDLBMGT11gD/80ld57vmXKJVL5IslSoUcpYpOJpMlmYhTqVSIJ5LYF29oIQSpRJxsvkg5
+      N8eXvvwXeD0aAD/752/z53/7Tzz70+cp6waxuTmK5QpnjrzCi4dOYeoV5ubmMEyLYj5LJpMh
+      l8uSyRWxTJ25uRimLTD0MrF48rbtoXyrcbZwW7YIZibHCT3xJBfefI6XxxTajEFcXbv4+299
+      nT3b+zkxXiDqzvPwp/93HtrSzb5/+y6vDxWIjwzw8U99glypTMUwAYt//reX+JM/+wvCXhdD
+      pw5z9PR5Xnr9FJ98uBeEwRe/8P+wal0/A+MlNoSzvDgQ5333bmDWbmT/j/6a+vYuZotB5Okj
+      hFdv4cMf/RT1gbv/9nFKgGVK54bdfOkP/2/++ZtfYTRRwLZtLMsEIXAH6/nQk48QrmvlwR0b
+      mJ1LAnDk4GGe/Nin2Nhdi66FaYi20tvZDIAibMp6dW5XbGqUobFpZmYmq4ujykmGMyqf+dVf
+      JTE6gC3glz73v7GmNYJAcPT4cUpli5DfzUN738fxQ2+QSGfvVNbcVO5+C79HGTx+kOdeO0Ln
+      xnvYtnU7r379b0nLZR5Y76GhoQ7V7aEuEsLrU/B73QC8/6mn+NfvfhNJCvKxvhZ+Xhu5OGVL
+      4Td/41f55le/TH20hc6IwBYyLS0t+PxBajxR9qwZ4ytf/ioPPPlL1OTP4vdoaMJPKKDywSce
+      Z6ooWLu2jemZs9RGwqiKciez56YxPxBmWRb79+93ukEdVhROFchhReMYwGFFs6ANULFsiqaz
+      h4/DymGBAU4kyzBbuFNaHBxuO04VyGFF4xjAYUXjGMBhReMYwGFF4xjAYUXjGMBhReMYwGFF
+      4xjAYUXjGMBhReMYwGFF4xjAYUXjGMBhReMYwGFF4xjAYUWzYDq0mBsjdeK9sdbTweFacDbH
+      dVjRzJcAQggOHz68VFgHh/cc8wawbZtEIsGePXvupB4Hh9vKgjaAz+cjGAzeKS0ODrcdpxfI
+      YUXjGGAZMXHhNN/9zt9yZODCguN/+edfIVu+8itrv/cXX2cqXbop6X//r77G869dvR3486f/
+      jjMTaQD+5Tvf4MJshpGR8Zui4XbjbI24TCgmx/lvX/oGf/TH/xWjVOTQvp9zdjzO4099iNMn
+      j1HRdV58+XliBXjqqUd545VX0C2F5o5uvG6J/S88y0xB4qnHHuKln/0Yb7SXB3duopyN8dqh
+      E8Tm5njkiQ9iJMd46cBRHnnsKSbPHyeRTHPfox+gMH2e7z/9LP/lv+7l8Gs/5/RYgic+8EFE
+      foafvvAqa7ftYXNPlKef/hEnjhzg8TV7AWhu72T2wpt88Yvf4At//Md49FmOnZ/mqQ8+xVsH
+      X6WQTlHb2s34hUEeevyDzJ4/wrnpIh/50BO4lsHjdxlIcACYvnCa2u711IdraG5uxB+qxU4N
+      808/eQWA4/v+jSNjFerELH/3o+f57je+hRKI8PJP/o3jh/fx3Z8cYOrkK/zDD37IPz97gHCN
+      D4Biapq/+aef0Nfi5xt/+w988Q//hPoaF//ja3/FS898l4mchCpLRNtX09LcSJsny9/99Bg7
+      eyP8z2/9PV/8oy/yvief4s//9E/48dPfpehtxS30ed37X/gxrrp2GhvaWd+m8d+/8je4y9N8
+      +x9/zD99+6/pXNfLV77ybdoiMt9/+md88y//mrq62juSx1fCMcAyoa6lk7kLpymUdeYmR/nq
+      179FqaJjmgYAeqWCS/PgdruQJRlvsJ777t2GDJhGBdOy2LjrYbZv38lv/bsP8pUvf41L7yZX
+      VBcuVUGSBLpuogajfOyxBwDBA4+8H59LRlYUJFkG00R2udE0N5IsUzEMvF4PqqJg6DpuTUNV
+      Fw6WyoobWRZIwsIwLaKrNvLg9rXIipemtijhmjCNkRCmJfg/fud3ePo7X2c0vjz2n1L+4A/+
+      4A+gOg4wPj5OZ2fnHZa0MtECdaxuCfLjZ5/HVRNlVWMQWwuzfv16WqN13Pf+p0iNHCdmBPjE
+      hx5DVRT6+vuQEGzZ/TAhkWM8lmPdmm7eeP0gDz72Abpbo5Qzszz3yhu4PCE+9clPsn1TD8dP
+      DNDdt47GujCdPWvwuavPQduy2bbnfbiKkxy9kOTzn/kEOzf38cyPnuUDn/ws99+7k2MHXqGr
+      fzOr+/oI+dzYQtDVu5GIK0dObeLedc0MDI6zbtMWQgEfa/rXoMpuVq/uwhMIMXVhgGjPVu7d
+      tg5Fku5wrju7Q7/nKWVmeeXIEI8/4ozvXAmnEfwexxuK8vgj0TstY9nitAEcVjQLDGDb178z
+      9I3EuVviLReNiUTitqa3FEKIuzov38kCA9zIxNDlemE3I95y0bicDHCj8ZarRqcK5LCicQzg
+      sKJxDOCwonEM4LCicQzgsKJxDOCwonEM4LCicQzgsKJxDOCwonEM4LCiWXQ26PHjx9m0adPt
+      1LLsGBsbu+Fhf1m+/mfL2+MFAgE8Hs/88XQ6fUvTuxKVSoVo9L09k3RRA5w9e3bFG2BychJD
+      168e8B0IIZBuYLHH2+M1RqOEQiGgeqPmcrlbmt6VyGaz73kDOFUghxWNYwCHFY1jAIcVjWMA
+      hxWNYwCHFY1jAIcVzbu6QYUQxCeGmR05z5vP/jOq2037mk3UtnQgSRJCCKzCWYzcAJIkI/nX
+      owR639WdZhllioPPI9KjCK0G7+r34wo0Yc2cwBj6OcKyKNb38qquU7EtIsEGYsU5vJLMPULg
+      Kswh3H40o4JslhG+euxCBmFbFOu6eFMUURQXQvaQKaXxu/1oqka6lKJT9bK2EEc1y4hAI6Iw
+      i23bZCPdvKEXcMkuNJefbCVD0F2DbZuUzTIhdTWTcxYSgn7NJnX0EFIojOLSEJUyQpGQPRaS
+      bYDiQrYMJCHIyRFyenWzqJAKnlIBFIWsF4qyiVtxAWALG1VWKRslQMKreiiZJWQhUWd6kSo6
+      uFQKXi+W1wO2hauQp1wsoVei5E2QJPC7TWqMOLIQCCFhVTQkzYswTbAsJM2NbZoIAVlPkKJh
+      IwFut4Ju2rhVmWClgGqZSKqKrBvVL3a7wDBAdWEKi8RbR5nOpGjcuQtZVjg7PM2J81MI22ZN
+      UCE6O0JJ8zHobyZVNgn53OSEhW4KGkJ+kokcsgR9PpP66QtIPg/hzl58uLEUieLYCFYuh1pf
+      j+/eXeD1MpZOMZZOIQkJOy8TSxYI+DTKhkGhbNAccLM5NYZq6BRamjgZ0FBkic15HffEFJLL
+      hae5BUXI4PWAbiB0nYwwyI+PItk2nr4+IuvXQ7mycGOssdFR8mNnGNj/czKGxKMf+SR6ucix
+      F57BNCrUt3VSnvkBkuxCq70fxdeFmTuFVTyL4rtsAqMQJ/Xal9Fat+PueR9KoJHCiX/EOP1D
+      pGIC17oP81JqClcxTs/UYU66vLhcXgrxYTbFzzLlq2UscYGWQpJ8JUtxbgTNE6Iyc4xXXSot
+      qp+60cO8ZpbxuzUqRp6R1BjJYoIN5Tzd+Rmes3Q8qWFqtCD5mVP81JbocXupnTzCW6aFJEEi
+      PYMsy8xkppierMWnBciU9tN/eoBEYy+vjowSFTqSEBiUQc4idBWznMUlS1T0PBMlPy6XRk1l
+      FK1oUnT7mdN1yu4i4YLANg1Mt0KhkqdilHApbnRTp6QXEBJYlRLhrKCswayiYyke/Lk8IWHh
+      1zRiLheJssCnufDm4+gihVUsky/JeCyJjNuFUhhH0mXscgVblpEkCaNQYNT24HPJuPIpcpKC
+      sEGUigSsMjFcSMUCmgSVUhHJtJCEjVEqYcsglSvoDfVEayOM/vBf+flUBUmW2bm6EW3fc8zV
+      tfLqbInRgsTq8hyJ2Bx5b4DkeIxsLo/f72N0ZoZNU0eYDXdwKm+xqT5MfHCASjqBOTiMN1yH
+      d/cu0DSyzzzDUWHhCgbpCEZ44+gUgbCLtFFkLlHEtqErOUGtZPGjnIupqIcWw6D1/AVqJ6aI
+      qTJjLQ2sEhrlZBxjdhaX2wOmyfDZ49iWRY0ngLZjG8bsDNM/+ynKidMLq0DjZ45TzKbZ9ujH
+      aOzsxR+K0Lt1N5se/gC5RIyxw3+FGliLO7IbSfEhq0FctQ8ju8KY+VPzJUj28F8R3vMf8bVu
+      w60F8UQ6CXY/iDFzEtf2/4Vx00Kuaabvgf/EZNt2PirDBzZ8lHtKMaY6H2Tn+o8SSQyRuufX
+      qe3/MKKSwHPvb3B27aPcqxeI7vw8B10avxbs5GNbPsf5+BCf2vJp/v22z1Mef4PwQ7/Hh9p3
+      cMaq4Nn1mxxr28WjqkLTPb/GCSQ+39TDExs/ymh6hEfWPs66+qfIWqN8fM8u9iZ8pLZ38tQj
+      u9nSVIcR7cDf3YNSTqLV9+ONtiCXi8iRHore1QTkIg2NjaiiBm9YEI1GKEslgt5WpLZm5HyJ
+      Fl8TAS2AjaAl1IamagS8IbpqewgXFGiup7ahHV0o+ANutLo6pFIZX7QZVfahaDKNjXUUfS6a
+      KdLStgpbByPaRW2knYJRg+Qt4opGkXUdrbWNeKCBJnQao3VkXF66vDJdjTUYxRJaQ5Qur0Ja
+      cuPu6EC2BVJtBKW1FVEo4G2M4u3tRX/+BSLrNpDc+AANmTke2rmW0ssv0fvZz7D3ke0kMzqb
+      tvURfXwvibkUv7R7DevWd1PJG3zkoU08ImIM9d/HB/bupENxMdTYRccnPktp/wG8v/Rh3Hsf
+      RB6fRuvtYerRvXS9+Rb9DY28eHiETz+ygT2rOzk/luID9/fy6b4wwymD1Q/dy/rN9czMyXTc
+      9wA+f4BQpJ6Nj7wfO5tnal03gYcfQszFMVsbSfkUNFPQ+sST1DxwHzVjszTsvg9/pkClp3Oh
+      ASqlAi7NQ/OqNQuqM62rN+DSPEjmFK7gunfVo1yhHZi5qgFsvYCQVVzeyIIw5uDPce/4Ncrj
+      b3Bs/DA7OncDcNjUURIXqBRi+EMtjGdm0Udeo2XzL/PW1FtUzr+CZ8svk594k6lKCknxMT13
+      BtG6EWPyBDO5abrrujk7cwx7ZD+51m2cjZ2hPPwKofUf5VzsLJOlLLZpMD43iNb9MJWxg7w1
+      dohPbf0sb44e4PDQCA9t7GckPkgpnyYtVQBQzg6QKpYxShksfw1WKo3IzSA3dGOkkmTzRcJB
+      H0YpgxAqtlEiW8lRH6khnS2QKaUJNLVhpVPkylmCWg0Vs0yhkkNCQlgmiuoiWU6Sq1Ro8IdJ
+      FuMY6SSu5maMbJZSxcCrqRSNCraZxShLWNkM9Y21JLMl7EwaO1xLXq9gZBKgqmBZlCoGPtmm
+      VCrj8/uxCzmMdIrGaIR4poiVTFJTFyabTOMOR6jkspipFGpHO2YigSTLqA31lIeHOTs2S7Me
+      B0AvltAiEcZHptm9tZdT58d54/QYDz+5m9xbb3F2eIqNa9qYHp2iRpRJ54uQSrNzSy/HTo+i
+      Dw6hblpP7uTxqla/D0plZgydQDRKfmoGzaXi87g4NTrHQ+s6GUklqZw6xbYHt3J2PEGinKUu
+      GCBdKGOXylj5PFQqbPGHGYjPwtQM2sMPUj55kuTxY9Tfdz8kUtUqkSRhTU4TXLOG5IWhhQaQ
+      lUXeEHmxeq+43Fc+jwRc2lJFIElXaFsLAYobbAshbORLYS41HYRdrYdKIAkbSXZhCxuwEbKK
+      JMz5tISw5tOwhY1LVrGFhSQsZMWNZdtICBRZwbati4lI2MJCuRjPsk3cihtLVPfdVyQFy7bf
+      JgiYnwckqtqEAARCli/+H4TE2669ep2yJHExZLVaePG0JEmIBWEvHasGkRYcv5xG9ZpFNZdF
+      9Z/577r0HfNf8vbfQpoP+/b05n81SarOdZo/LxBvb8spCljvmAt18bQlQJGraVm2QHEpYF3K
+      S7Bs8bbfVoAsV6/TssDtng97OV9BkmVsy57XaNk2qiJXt+sRAlVVsKxqe0aWJRbs4iMEknwx
+      rC1AVRG2Xc0KRa4eu6TftpDk6r2+4E6VJAnT0IlPjS645rnRIUxDp1zSMIsjvBMzdwrFv7r6
+      he4AGCVMfeHuv2r3/RiH/wqtfSfrWjdzfKL6Iob1qgciHbgDjRTTkzQG6lHadzF54h/Y0LwJ
+      retejGP/gK91B3XuEMLM09ywFn3qJO5oH83BFs7Hh1gT3YzcsRvPxCHWNPajte9iduAZVjf2
+      U+/xIysS7Q19pEf24WnZxJb2HXzv6HfY1nYP6zvaeWXgBKsaevF6AvipNlpFXz8hrwfVE0It
+      ZFHCYSR/I8yN4gpHCPi85HN5XN4QEiaSqhH01BBLZwgFfNR4wuRmJ1HCYfzuANlyFo/qxacF
+      AIGkqlimTkSLEHRrxIsZwt5aXKEQxvQ0ak0NmlulrJv43R5Qg7h9EkooRHIuSSTgRQ6FIJ0m
+      4HajhmrBMEFRq/Fs8Pq8FPIFFK8PNRQiMZuiNuhBCYfJJNKE6msx0inc/gBqJIw1MYkSiSCE
+      wJycQutZRXd7lKQrDIDb5cYoFOjobOL1o0P0dreyY00br/14P/7Nm+lqi3L83CStXS2ULJWA
+      1wu1YU6eGGJtTyva6l6sI8cJbNhUfcDkC+DzUutykZ+epqatmWJZp2KYrO9s5KVTI7SHI2hr
+      +jj88mHWdNQT1gLMZXKEAx5kj4bs94PHw0Auxeq6RmiJor+8D0//WsL9a0kfeAPqIqAbYFko
+      ba3kzpwm3Na+sBGcKRv4MBk8sp+ZVI5NW7YyO3KO4y/9G+GGZvof+Ax67Fkk2YWkhkFYGNlj
+      2KULaHXvQ5IkJElCDXeSeePPUcIdSC4fdiVHYXgfcjmDYhs0tG3j2MgbqLHTtI8d4BlfPXlD
+      51wuzsbsMMOyTC4/R19minx+ClHI4LZt6kde4w1/LeFKidapU/yr10O2kkLC4kzsPKeSF+hw
+      eQnGzvPTSpbNuRmClkHDxCFeVPxEjRyNsTP8WAmQqWQolfLYQjBTGCCfasbG5hRD9J6MM6yE
+      2Hd6kA4jhyhXsCQJYaWwigJbFFFlC9mIEddrUBCoxgxWyUNOuCiXLSRXnmCmQkW2KWhQ1AtY
+      wgQkKmaZYiVPxdIpiArBjEFBqlCyKqh4cRWKeL0e3B6NvGxTzOlokoQ7lyUj2ZQKJXShEDYL
+      ZEQJX2UahQh2oYxQVYRpouUyTEo+XMLCVcwRk72UDRvDNPHbFWaFi2Apj9vUMSplFMtGqlSw
+      DQNbAiuewO7pJuRyYb32PMdrOlEkiab1fYx/7/uMyX6mk1nMXImW+DiTFZtZxcfM2BwlbEwk
+      9mdsdsycYMTycmomyaO1KnPHDqIEAshjM7hyJaRVnViFPL7nfs75/j6kcJhVTbU8s/8ckkdQ
+      MCpMTxcZK0s0FFN4KkVeHy0RarBpzKaRxicwSiXGzDJxzcXWRJHy1CRWLoc3VItHcTEzNoRZ
+      LuMancJas4rs6AjpiVFCur1wd+h9+/bx0IMPMn7mOD/4l39h1/rVIEF7/2Za+9YjSTJCWBjp
+      g1ilMUBC8q5CC297V7XHLKXJDzyNKCaxFRf+1e9Hq1uNMfwyxtBL1e7USAcv2iolBF5vgJye
+      xy9MdpkVlEoeWZLxGJVqkeUJYhUL2AIqkRbecEmYsoQhVEpGCVVxoakaZaNEj22ztphAETay
+      FsQupbCEoFDTwqsCbCRcqgfd0nHJLiQhsIVANXuYS5nIQtCj2GRPH0QN16G6NGxDB9lG8VgI
+      qlU42TIAibRUR8GQAYmADMFKAWSJrBcKqo0iK/NVIUmCilEGQFM9VMwyii3RYHir1QJZpuD1
+      EGlro9njxVUqUChVsMMNlOxqVc7n0qk1Zt/WDepBcvuq3aCiWrLYwsJCIuUOUjZsBOB2q9jC
+      RpEgWCnitk0UWUI2rWo1xOWqVhVkCUPYTL51hDWrVxN96GEUzcPBExcYHJlBWBYdXoVVyTGy
+      isY5bxMlS+ByuyhKNrYEAc1LIZtHQdCpmXQmhhEumbqOXmr8tRiVEoXRYYSuIwf8+B98ECkc
+      ZmBullghj2nYlJKCUslAlmVKhoFl20RUiZ35SXy2Ti5cw/HGCDKCbfEc3lQGSZLQ6upx+Wuq
+      VXrdwLItUvkU6ZkpJCDQ2UndrnuRsvl3G+Dhhx8G4B//8R/55Cc/+a7qzruqP6aJql7/JtN3
+      Q7x9+/Yti+nQuVxuybd33srp0OvXr39XHMuyrjsvl+vv7YwEO6xoHAM4rGgcAzisaBwDOKxo
+      HAM4rGgcAzisaBbtJ3JelwoNDQ3Yl4bsr4ObsU1JTSiE1+sFIJ/P4/P5bml6V+JGulbvNhY1
+      wM6dO2+njmVJb2/vsui7TiQS1NXV3bb0VhJOFchhReMYwGFF4xjAYUXjGMBhReMYwGFF4xjg
+      PcCNdIE6VHFy7i5ibPAM8WzxTst4T7GyO4HvKgQl06I0M016VuBSIJNJMR3P0dxUTyBUR35u
+      lKIUJKjqpAo2tQGJ0Zkse/c+jFtxnnVXwsmVu4RSJkYsVSAWj+N1QyxvYOgGra0tuDQ/3W21
+      ZIuCSqmALSQUSVAq67S2tSCvgBHdG8UpAe4S3IFa9uxqQNgWkiTR0CKQsSlVDDS3G0lW2bpt
+      E6pLY3z4LAVTYfPmLZQqBopz/y/KAgNcWu52PdxInLsl3nLRWF0OKSEubh1T3YrKwqYAAB/J
+      SURBVOlDAhR8XgXbtrEsG4+3Ol+oe/U6ui/GvXT+dui82XFuR7wFBlBVFWWxvYGW4Ebi3C3x
+      loPG5ubm25reUlxcQn7X5uU7+YXbADfaBXc3xLsbNN4t8Zarxhs2gF4uMjk1hWHZJOLx6k5g
+      V8HUK+imhVEpkc4WELZJPJFcuMPXFdMqY1g2+Wya2bk4lmkQT6SuGi+TSpAvVigX8+QKJWxT
+      J5FMLxlPCJu52RlMWxCfmyGdzVMq5MgVykumZRkVZmZmsWxBOpXAMG0KuQyFUmXJeKZeZmZ2
+      DsuymJuZJpsvkc+mKZavthuFIJfLYVvGxWsS1/g7VONVSgWmpqbR9avnCUBsdppUNk+5mCdf
+      LGMZFRKpzJJxLKPC5OQUpYpObHaaTK5A8RryRAibeGwO07JJJROYF3/7q+WJEDaxuTlM02B2
+      Zpp8sUwuk6JUMRaNc8ON4JELQyjeENnZcQq4SY1O0dvdukQMm9HBM2h1XRRSUyiSYHZWJehx
+      MS1UWuprFo03NHCS2lXrmBk6R11LF6Mjw7gViTlVIxpaZJ68bVAxBHNTQ1zqAVRkBY9ig+an
+      zu+6YrRyIY+iygwNnSc2HWPj1q2MjI5gI7F+3dpFr84wTCSrzLmzp5C1EHOx8/M347q1/UvG
+      E+Usg0NpUpkCG/oDjE3FAJt1/WsWjZeOTXPqwjQtdUFcqszZeAyv309qdILe7vZF4yVmJjk3
+      EaPOqyD7IpSLKQrJ5JJ5gihz9swFNm7bysjoMDYyLkVCkywUb5Cw58rP0dj4MAnTTSRUYPDC
+      BBs21jAyMX3VPJkaGSJVskHoZEoQj5/DFMpV82TswjkKhoJsVxibybA+4GNsJokk5li7SLwb
+      LgG6e/sIuAyGx9M0RBuRbPMqMWSaW5qRANXtJhz0UjQkGusj6MZSzpZpuRhvzboN5JMzlCyZ
+      xroQFX2JNCWFXDpOa0cXbk3D5/UgZIVoXZBiZfHGkUuVmZ1L0929ii1bNzE+Nozb48HjWWxf
+      1Cpuj5t0OodsG9TURVEkC48vgKYtclNdiqe5yOSK+EN1rF/TzciF83gDITT3Us8mm6ELY1QK
+      GYomROtCZIsl6hqiSGLxpx1YXBgeo5RN0dK9Gj95kpkc0bqaJfNE4GbL9k2Mj43M54XictEY
+      CVDUF3+Pcn37KtprfUzGcmza2M/YyNA15Um2UKK5oYbRsSnCdVEku4I3UHOVPIF8sUI04iFt
+      aKxd1crw0Dl8NbW4l4h3wwbIppIkcjprN/QwcvYstY2NS0ewLaZm5kilEgS8bhJF6Gur5dzI
+      NE31kSXimUwnEiTiMWJzM+D209YQ4vxEiqZIYPFoRolsySCfy+F1yZi4iEaCDM4UaQ5ri8ZL
+      pVLIsiCXSTMxOUm4thFNFsiqZ8nLy6fToKjUNXeTnTpPTV0rql1GcS++kgsgl06D6sIlWUxO
+      TVPfugqpksblWfzaQGb7rnvZuHEDHdEI58YTbFzTy9jgWWoblmowK9yzew8bN26gnEuSKkFN
+      JMrgTGHJPBGmzsTEJOHaBjRFQlI0IgEfwwmdpuDiN1cxn2FmLkltKMDE5BS10bZrypOuzg5m
+      Y2l6+vqJjZ0j0rwKqZK5Sp5AV0cbs4k8YZ/M5NQM0Y412PlZNN9itQsW7gy3f/9+HnjggSUT
+      cXB4L+GMBDusaBwDOKxoHAOsBITN+MgFSpWLnQaWTia/cFZpNp3Gulpf6HsQZy7QCuDYG/vw
+      tfRRzqc48dYgPR2NHBjM0B6w8QUCxJMZisUK6zb0MToyTndHKyMTc2zdvhnXe3winVMCrAAy
+      uQJN0UaMYoZSPsGRU6OUY8PErSAnDzzHZBYUs8C+fS+jFzOMTs6RTMZZqpf5vYJTAqwA7rn3
+      Xo4eOURDbQhPoI6m2npspZf83AQNm/bgqe1AKYfo8aiMTadorAtTKebutOzbgtMN6rCicapA
+      DiuaBVWgk4f+BaV04k5pcXC47cxXgYQQlMtLz3h0cHivMW8AB4eVyHwVyLIsvva1r7Fhw4Y7
+      qcfB4bayoA2wefNmpxfIYUXh9AI5rGgcAzi8p7hwboB0vkwxl2I2nl4ybCUXd0aCHd5LGHzp
+      C79Pw66P8Mu7mtg3ofLo9lV0dHQyPD7F0MEf8/qEwn/4/McoFovIkuWUAA7vLXx17Sjx84wm
+      CgD82f/8U8r5FH/6Z9/GskxM02Dw6D7+8xe+yLnTpxwDOLzXkPnMZz7K008/C1THtwxDx7YF
+      0cZGmtu78WsKOx96gl2bVjsGcHgvIbO6fw0da+9h58Ze2psaeOS+3XznBz9ibU833Wu3kR4+
+      QVkN0dHSgKL5nclwDisbpwRwWNE4BnBY0dx0A5jmClhG5PCe4aYboFQq3eyvdHC4ZThVIIcV
+      jWMAhxWNYwCHFc2KN8Dd1Gi/m7TC3aH3jhvAskx03eBKC9Ms08QWAtu2MM3q9t22bV0xvLDt
+      q77k4Upcb6NdCIGu61jW4tuC3ypurINBYOg65hLvy7r0DjHbtm7ofVyLca16LdPEsmzsi+9T
+      uPxOM7Ho+80AbMuavy7bstB1Hdu25+8NYdtc7Za447NBh86fAdvGU9uKVMnR0NJGYmaSYCjM
+      vpde4r69TzAzcpZ8RbBt22Ymhk5TEBqa5kMVOo0trRTTaVK5LI3RFjSPB7d663xtleMcPR3D
+      pQpWdzaR0yVqfBoyYNkGmYJBpMZHqVRBL+Xw1NQjGwXSZZuGkIdU3iDkVciULFqbGm6ZzsuY
+      nDh6HFtR6O9fQ7lcwtZLaME6Ktk4ii9MPp2krr6O42/up659DSoW7Z3tTIyOE/LCmVmDPVv6
+      kG7BLnF6Ic3poUlaWhqYmZqjqa0dLAOfJpMtW+jFMnX1EfRiDrQgklmgqEu0NjdyZuAEJUth
+      +5aNDJ8ZwPaHqA148Hh8xJJpVFOnoih0tnegylfWfscNIGwbw7AwE1PkyyaJZIKyAZEK9K3t
+      J+zXmMPGtm3yxQoCUX2ripGiobWT0dFzlPIq9WGJgXND3LP1Fi/pFGDqOl6PlzOnz2KpPupC
+      fpAksqkYpu0mW6PR0dlDbHaK8dk44ZoICJ2z02ksoVKKhOAq7xu4mZimgeJ2MzU2QnNrlLdO
+      TxKpLaBJBsnJGF4rj6n6aGjpprnOz+jECGdOlBAuiYZQDfVNDbfk5gcoZJM0da2mwS9IpIrk
+      0klM0yQpLHp6ujl48hiafwtD54fx1YTxaQqq6gYE2AbChkLZuDjpzSCfKZIvlClVdDwIQn4P
+      iVyRaMh/xfTvuAG8Xi8CnWA4gp1ME402MDs7S11dBL1U3Z1MdXtwVQqAhL+mlqb6VqRKlvPD
+      Y0Qa6onUeHCpFTo9FsWKScCz9BtIfhEkxY1HU9E0jUB9Hbbqo6nGxXReor4edNtFMOjBq6nY
+      QhAI1iBZZebSeTqi9VRslZqAm3i6ePXEbo5ivF4vsqYRqo0QCIaoD/mI1NeSnpshEAzQGGml
+      XC6h+P0Ypomq+fB4AlhmDl3yUkxMI5oCt8QEoYZWzpw9Dw0NRMIhJNvAME1so8RMLEXP2vVU
+      ymXqIyF84Trc6mUNLs2HXKiAJBGM1FPX2kJmdhKheMgXCnjCEfx+LxV58bdFLpgM9/zzz7Nn
+      z55f6IKKxSI+39JvAFlO3Hq9gqnxUSzFS3tL9Bf6Jidvbz4LSgCfz3fxpcw3hmVVG1Fer/cX
+      Fna7uB16e/oWf7ne9eDk7c3nplaBFEVBURRU9Y7XrK6Zu0nv3aQV7g69N1XdpRLgbuj/vcTd
+      pHc5aJ2ensAr2Rw6eZ4tO++joWbxxvxy0Hs1rs8AwmZ05AJlU6a5IcRMLElbSzOK5qNSKlIT
+      DNwVrn87d5Pe5aB17MIAMxmDjzz2IIeODdG8a/OiYZeD3qtxfeokmY6uHgYHh5ianMQdiGDm
+      Y5wfNWlra0UIMf93t3A36V0OWjdt2UNnJslr+4+wYdeDS+pZDnqvxnXbs5SJ4Q3VE434yccn
+      mEwUKJYEiiLPX/BSo3fLjbtJ73LQevLkMQq6yc4t/Rw/eZrdO9YvGnY56L0a120AHTetjWHS
+      8VlieZuuzg5wByjmMkg+DUmSkOU7PsPimrmb9C4HrTu2b+X5517h5ddPsPfRR5fUsxz0Xo3r
+      NkA4HAYgUh8lUn+5X9tbG5mfh7HcXf927ia9y0HriaNHcKklVG8LJwfOsX1j36Jhl4Peq3FT
+      WyiyLCPLMoqy+MjbcuNu0rsctDY3NRMv2rj0PI1N65fUsxz0Xg2nG/Qu0rsctDa09fC+th5A
+      cObMWcz6wKJhl4Ne06iQzuTwB0N4tXdPkblOAwhGh85jqT48kkE8naO5MYJw11Au69XNhu6C
+      rq+3czfpXQ5axwZPMTqTAbtC66oNS+pZDnpffvGntHX0cvzYUR56/xNo7yiQrnscYGYujuYJ
+      Ytb4WdPTzIWhKcZS0+x98B6nBLjFLAetFV2vrhkQNoZeWVLPctBbF44Qj8Xw1tQjC5N3yrnu
+      cYBwKEhZl3ArNmcHJ2lsiBBurmF8Ypbu9qZl4frr4W7Suxy0eoIRNtSEODIwRCgSWfYlgOL1
+      U06NYeEFWeWdS0UWVSeEzQvPfJ+mvl109q4ioAJIrFm3cdHEnBLg1rIctI4ODTCVKvPhR+/n
+      8Mnz1O9YfP3FctBbzKS4MDZNW1sPtmVivqNTanF7CkExn+KNQ0do71l1TYk5k+FuLZe02rZJ
+      PBZH1XxEwjXcmqUqV+a+h56kUCiguhV27NiMqi6e+nLI22DAT31tAw3NzbhVlXcuaVhCnUSg
+      rh29YKFc42i2UwLcWi5pPfT6y4Qb2sjMnqChbzudDTW3Jf3vHfoh3z/0zIJjX/z4/0V/U88V
+      wy+HvJ2ajRMJeqhkYxR0E881N4IlaGxqwRwfpyLg0oIyyyhxenCChpCHTKFMU30YtBqKuRxN
+      0fpl4frr4W7Se0lre1sbo1NxTMlDNBK8bfqz5TxjyakFxwzbXDT95ZC3O+/ZSdEA1S4jbAtV
+      0xacX1RdNp3ClhSiXWuoudh9KoRgbHQCSRbolQqmYVAuZDg5MMqeXduWTQkgbJPZ2Tnc3iC1
+      4aUX+CwHvdfKJa0zM9PkiiZb+9sYm4nT13Y7FtdzxYlt1R07rpx/l/SWCjmSmRx19Y143LfX
+      EDPTE6B4SGYKrOkPYboWFgGLqonPTPLiT59hNmfzf/7+F6j1Uu36MnUSsRThVV3YuTy67aFn
+      VRepZJLmxuVRArz20gs0tq/mwunX6Lv3UZpqtEXDLge918olrY0tHayvr2fwzCn8LdHbpv9K
+      a4JlefH8UxQFGZNXXn2N9evX88q+V/jA44/dapkLmE1lwUqhKTJefwD1WqtAq/rWsmndSeZK
+      wfndgyRZoa9/PX391c+trW0L4iyXEmDd+o0MnBnEFWrAp0rLvq/6Wrmk1a2qjI5PYVZy5Iol
+      TPPGl7FeDzdSAth4aQz7GRgYoLF99W3P64jPg8sbZDaZQ72ecYDzZ0/Tuekh1rhUIos/QBew
+      XHqBpqcmkVSVwtQAY23r2NC6+A2yHPReK5e0FjNJ1ECUBqWBvNu1rEsAydaJ5/Jks0XUmTHU
+      JSbP3QpShTy5qWmaakPoqPjeIXXRnGvv6OLkiaO8+dZJfuV//S1C12AC27bn/+4k9fWNtNU2
+      I+eayLjUpXcXWwZ6r5VLWrv6NwFgVQLkJ+PYdt3tEXCF3sClZnzatg2yRl//ZiI1fubmYrc9
+      r9f2byQYDJJMJtFkm3cmv6gBBs+cIGcofOyTv0yN+9JRwezUBCVLIRrxMxXL0N5Ui616KRfy
+      hEI1t2wDpevhwoVzTB04gGxL7HrsQ3dazk1n8PQxZjIG2/pb8QZCd1rOVRAMnT7GxFSM3rUb
+      uZ3P///+4z8jXynMf47WNPAf9/67BWEWNcDGHfdd8bg/EGR6eAKjXKAx4mV0dIxMBXp7exYs
+      gTu4/yVM3OTzBR7c++i7+l9vJZ5gHTvau7CKeexrWJInbJ2Dbxxm4/ad5NMxGhubboPKGyeV
+      ybOht5vXXn2VxnUP0N5YPV7MZdBNg1MDZ+nfsI260DLYkkQIkBSa2zsJ+W9vVfO50/tIFi6/
+      Lb63sevaDXBFBICEYluY4nKjSJJkLMtCktzzJYAsy2BX64i3m02bqgu1zVKW4dk41LQuGb44
+      PYBa38PB/ftR3dZtN0AiPoeqqliSm9rQ4tOLL9He2sTIXJHdu/eQly+Hnxw9w8hsjg0bNnB6
+      4DT37952K2VfE5LiZu+jj4MkMTM2RKZQIeS/xkblbeC6LZnLpgnWN9JUW60CdXZ1IFQfpXwO
+      SfLNL4PbtHUnpmUTGxugbMr4Lo4l2LbJ5PgEiidAc7T+lgzjj45eoJLLcGEywf0PP7zksjxZ
+      lgm2bSZy7jzBpjoMSbscXghOn3gLoWgYksbmdb03XatZTHLk+Eny2SzhcIS973tk/pyu61SK
+      OYqmTLQ+Mr/g6ML4JF0tjQycPYuvdT0tddWR4NXrtjI2+XMOvH6Q9z/51M1fjniFH2upZY+y
+      LIOwOPDaPrLxSTwd9/Bwp2f+ITk6eoH03AxzOZNHHn7wXRPVbgXv1Hqds0Elmts65z+u8l8e
+      gtfCoQXdoK/8/GfUt3UTGznLhtZtmBcN8OaBV2hs6yU9foZ0cRV9l8rvm8jQ2eMULDcbWyPM
+      Zsp4apfeu6Ywe46hmM66zjDnBkcwV3dXTwqbqVicVCpNQ0M9ptl107WievFIAnckghaoXdBN
+      ePjwfnKZHAoSnoefQFzM2w1rN6AFQtg2aOHgfJzzJ97E5ZGp8UU5fvQou+/ZelOl3lA3qA1B
+      v4/MnE5nd8+C7dcHThxG9oZp9iqkyyZh9xW/5qbyTq23bGe4TVu3kssX0Fv7aQio8wMQ3V1d
+      nB8Zx7YFm9bW3ZIuvEfe/2EquoGRm6HkcV91yq6vvgvfmYOMjmbp6O69HF4IonURPC4Xhit8
+      S7RalTK5YgHDtPGJhV2Kfs1DsLMJFwK/plIyFET6VTzFQShAoxvI7Uep+RUkxUdrezcT6fPI
+      5TQtPffcdL030g2qulxs2n4vnV3dxPNTqHWXH6BreteQq0A8XWCDV2WRHcxvKu/UesuWRA6d
+      PUW+YmO5/WCbmBcfHraQqakJoudiDI6Os6Wv62ZKAODgqy9gqH70ubM07vg4td7Fy1bLsijE
+      J/CHaxidSmJNTtDddnGxv7BJF0oUyiUoGbdkEOdyt6CExMJBu6nJCRR5gtmKl86e1dW8LQxi
+      Zw4tvIbGj4Nwk0rMUSrpzE4O07tx+03Xe0NTIfQKz/zwX4m2tDM0OkJn6+X22NhcnFIuT2d9
+      kLmCSf1t2DH+Fy4BpkYHKQgPqlnAEDINNRolOYBhWHS+bUnkfY88yczYIDmhgSyjKtWb0NaL
+      +CJRmut8xHXtqk8pYZbZv/8gqArBcCOb1q2eP3f88AFyZQtJ9XLvzm3zT5Bt9+wGtw/FWE9J
+      CsynkU/HOHF+kl07NhObmyYabamWAJEWEm8+R66g0dHWOh9eCEFDqIbZmTm6V2+8pifqyPlT
+      DE+n2bVjMzOxOKs6uwDIxsY5cmaMybEh9jz4GN3t1Ya2baus27CZkeEh/KHQgjTuu/8h3jr0
+      Guv7NuFxqxgV5cpPYUVBVlU6Vm+kUDmBZVfobLlctdTzcU6OJNi8rg/lHY/Zo4f2U9AFshbg
+      3u2b56cLnzp2kEzBZHh4kI996nP4XNKSJYBZzvDq60dxaSoNTZ30rWqr3gtujfc9+gShUIj+
+      /r4F17eubw2pdA5bdtHov3oJkJ4b4+DxQXbcu4fE9AVWr14HgFXOMDqTYnhoiFBtEzu2Lr5X
+      0aX0z598i7G55PUbINrSxsjkLDXBINMzs2RlizMTM+x9YOGSyGQyQX1rN6FSjtm5OM0NtQAU
+      yhXGRk9hlUps2PnAVZ9SZiFFpmzR1VbP1MwUZl/3/LmZ2BxtHasZGx2hYpi4ZPjOgX9hYPr8
+      gu/4gw//Dm7FxemBU3Sv6uHVA0eRrSR1dY3VeqoS4JEnPgpU31hT0qvfhRDkdQO3KpieGsNc
+      d+Vpv28nnkixeeMaXn35ZfwNzXRcnC7i9tXglgSqx0tbU938ddumwbmBt0iVZCKWsiA/hi8M
+      ofjqSE9PoHc3Y1kW6pWewpaFLVXj9a3bSM+adQycOsnqNf1IQCE+Ssn088brrxFubKWvu30+
+      7mwsRntXH6Njoxjm+vmbMBSKkC4kaWptwS1ZmObSJUA+MUlZ8tEY8jA9PcGqjiYss0x59Hto
+      QDkNPkA3O5Br9wJw/MQx1q3fyvkTh4m2d85PulyMbCpGT/9GTh46QMmq0N1dHVWwDIMzxw+R
+      tfxYxJe8py6dm56bJZO8bgMIpibGmZ1N4+toBknGpXnZuqmFialZutouL4k8cvBFaiIdhOqj
+      rO3rmc/YVL7EqpYQsruDVCZL68W57MK2mJqZQ7YNQg0t+LSL0rQg2zav4+jBA3Su37HgCfLI
+      +x4jncnh86ooSrWdcXT8FC+efX2B6j/4yO9U2yUbNzESL1HnLuNuWM//X9u59bZxXHH8t9zh
+      XaRIiqIkiqR4EXV1JdlyLF/iOKnjpHHgBAWKtkDRhwL5IP0E/RBFnwr0IU2N1HHi2GjdJk5s
+      ybZsKbIoUXeSEimK4kUkl9w+UFqahiOnD97HmZ0zM7tzzn/O/5zZFUIgyzJqaZu1dIVnz5bo
+      8nox6RuWVlVVaqUC6WyRvnCgpW+lUmIxFqfT66fjOepyeGiQmSfPsNgcnBgZ1droMGEyCMxG
+      M7lipfFXGQDRzuV3P2A3l6dcKqCoEqbDjMX0bgavP8JafAmFxliPQ4DkRpziQZn4WgJfcAAh
+      Nw6AWDtDOKt7dPf2o+jMLfPocrso13WMjg4jxHNWuF7HbjWQ2qmBLCOk4xHA3hVBPL5FIqEn
+      ODimyartff/CElIweN4HIOjzEV9eQjh6aDcJ5EPxal1hORbDZHfj7WpGuT2+fuLrCdDVGRk6
+      pc1DtDlxOd2YqioeX/BYpD6qC/UF0Dt6/18FkPCHovgPjXCP97lkOKe9BQHCA2OEwwPs72Wo
+      VBWN4jo5MYkky9QOCqzv7GkauTr/HavpIuWaEfPKJuenTgNQzKxxf3oeV2iMZHyeaKD5Ma4b
+      1z/D0dnDSnyBa90hdPqXW6mjMc3OPqJ4kKdu6kG3vkbI627U1crM3r9LyejHkMm0MBWnpt7k
+      1NSbpDbibGfzONsaG9U7d25hVmvMLca4ePkXGoMx/XCa0cm3qKaXeRZbY2I4CEBq6SE4Q7w3
+      OsTdew+4dPFco4FaZ2Z6GrPFSrku0+GpoUiNOZy/8DbZ3D620RH2czmMuvqxCFAu5vjvvYf0
+      +IPs7u5SO0yTruxvs7qeYvbxLh0OK5feuqS1zZaqWKoJZjfyeLp6tfcUW9+gXCgw0WsjnlUI
+      2qRjESC78hCzx09me5u12FMC3S7q9TovRoFUVdXeeTA6QhAoZlPE1xP09bgB+P6bO1gsVh7M
+      POLEmYv09zbKC3s7PJ1boKoU+NmESZNT2dvgQLSRzSSQt2Io4R+P+xy1WVpP0Nfd8XpYIPIP
+      CLkKqNkkbQB5A8J1GFk+0k65lUHo9kVYSj3BLFXo8Ue1clt3lK6ONJ3tBvL6Vu2+dPl9jEIl
+      GI5gMTYOPL/MSh2hkq8vgsVuRyfBRrKgIYDZEeS9q53ki2VcLie6QxmqqlLI71NXYXMnzWQg
+      osn3e31spnKcGQ5iNTZZrsmJk3z59VdUqgpXr11DHK6o7vA4j2/c5MZshTNvXdHmUd1PoRgs
+      bCRT2MxGLKYmFyiEoMtsYXsjhmwwIquVV/oAH3f3UalJONpt2r1Wl5eRIQ8Oq46trUTLM+z1
+      +uiPRJib/wGDvokAg5EI6C2sraxx0iFeiQAdwZNkrv8TV5sep3+igQAviQ9IkqT1//XNz6jr
+      HUQ8OqyBC9rSCPj6eBbfYOrceUzWpg/X4Y3w0dVebv/7Ls72ZoKjzt6FXI0zNhxFMh3P1h3V
+      DUfC1E3218MCVZKfo5afOzkk25DsUwA8+e5fJEoy+vIO5t4TBLwNjcxsb5Ld20WnSui2Ngl5
+      G9BXya6TLirEvr2P22ljMNKk0f7xt78g9DJlez+//qATpX48Asg6icXFZSQgk8sSDnhQ8jEK
+      q38GwAyUEiDcV5A7rgBw88bnRAaGWYqvMjE+qcnMlw9AyXHv2294+8Me9If71wcPH2IzljF0
+      +ph9usDJ0UbwLLk4jbDZkUs1fpidofNCAwEks4OBoAHbiWHSmd2W/esX1z/F3tHF5soc73z8
+      B3TH+ACJ9G2WV//aUj4Q/gSnY4x6DbY3l8nIOlY314lEmr7M7PRdkokU7h4/9ZrCESf1dG6O
+      7G4Gv9vJ5r6C13I8AuytzmB0uEnl9qmszjMQcL8SARwdvUSCXm59+QVnfVNaqvL8wmMMFg81
+      ZJy2pqVPxZ/w6e0Z1EqWUP+w5ugXd1bY2S8hyWn8QedP8gGeLiyQ2915TQjwwvW81o9OniNa
+      12GUa+TLqlauN1k4e/YCQoatrbRWLrd7GB5qw2kzkExut2j3b37/CdP/+QrH4BsY9ELr62Xj
+      EkJgFirC2kHY62IxNo8QAklSoVZouV+ieczvo1/+ClmWGRkZafUBDgrINjejnobso6pgaACH
+      y4FSrbBfbqYqu7wRTnQasRpUktt7CCHIlfL88e9/aul7sm+M351tOOSXfn4Fk9VOaWwYg1lQ
+      Lv64D6BSQ1HyLzz4OkIIVJ0JVYVoNEpdrbbMY/z0BcKhKNlsFlluHhoPeHvQm6zsFhXG2wRC
+      9wofoDvMqE2P3aSSSmVeiQDFUoLoYCdQ5d0P30GSkgjR2Lq4PL2Mj59mfXmRXKkdl62R0+Tt
+      H+e37Z3cezRPJODVZBrbnLxxxkOvu53sXu4nIUC4fwin08H/AOAjbl7E7kfQAAAAAElFTkSu
+      QmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
